@@ -1,0 +1,178 @@
+@charset "UTF-8";
+
+/* ----------------------------------------------------------
+    ベース
+------------------------------------------------------------- */
+body {
+    background-color: #fff;
+}
+
+/* ----------------------------------------------------------
+    要素
+------------------------------------------------------------- */
+hr {
+    border-top-color: #ccc;
+}
+
+a { color: #04c; }
+
+mark {
+    background-color: #ff0;
+    color: #333;
+}
+
+/* ----------------------------------------------------------
+    フォーム系
+------------------------------------------------------------- */
+textarea {
+    border-color: #ddd;
+}
+textarea:focus { border-color: #209dd9; }
+
+select {
+    background-color: #fff;
+}
+
+/* ----------------------------------------------------------
+    汎用
+------------------------------------------------------------- */
+/* カラー系 */
+.colorBlack { color: #000; }
+
+.msg {
+    background-color: #f7f7f7;
+    border-color: #ddd;
+}
+
+.msg__ttl {
+    color: #129a8d;
+}
+
+.msg--notice {
+    background-color: #FBF8EA;
+    border-color: #e7e3d3;
+}
+
+.msg--notice .msg__ttl { color: #eca700; }
+
+.msg--caution {
+    background-color: #FBEDED;
+    border-color: #ebd5d5;
+}
+
+.msg--caution .msg__ttl { color: #BF1517; }
+
+.border--gray {
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+/* ----------------------------------------------------------
+    メインコンテンツ
+------------------------------------------------------------- */
+
+.error_txt {
+    color: #ff3333;
+}
+
+#footer {
+    color: #fff;
+}
+
+.section__ttl {
+    background: #f1f1f1;
+    border-left-color: #ff8940;
+}
+
+.logo a {
+    color: #ff8940;
+}
+
+.subNav li a {
+    color: #03b;
+}
+
+#sub_navi {
+    border-bottom-color: #ccc;
+}
+
+#sub_navi li div a {
+    background-color: #f1f1f1;
+    border-color: #ccc;
+    color: #222;
+}
+
+#sub_navi li .current_tag_file a {
+    background-color: #fff;
+    color: #ff9300;
+}
+
+.mailingList__name {
+    background-color: #ff8940;
+    color: #fff;
+}
+
+.settingNav li {
+    border-left-color: #ccc;
+}
+
+.settingNav li:last-child {
+    border-right-color: #ccc;
+}
+
+.settingNav li a {
+    color: #ff8940;
+}
+
+#members_index #main_navi_members a,
+#mail_index #main_navi_mail a,
+#article_index #main_navi_news a,
+#errmail_index #main_navi_errmail a,
+#option_index #main_navi_option a,
+#systemmail_index #main_navi_file a,
+#html_index #main_navi_html a {
+    background-color: #ff8940;
+    color: #fff;
+}
+
+#members_index #main_navi_members a::after,
+#mail_index #main_navi_mail a::after,
+#article_index #main_navi_news a::after,
+#errmail_index #main_navi_errmail a::after,
+#option_index #main_navi_option a::after,
+#systemmail_index #main_navi_file a::after,
+#html_index #main_navi_html a::after {
+    border-color: #ff8940 transparent transparent transparent;
+}
+
+.mailingList__messeage {
+    background-color: #f7f5e8;
+}
+
+.table {
+    border-top-color: #ccc;
+    border-left-color: #ccc;
+}
+
+.table th {
+    background-color: #f1f1f1;
+    border-right-color: #ccc;
+    border-bottom-color: #ccc;
+    color: #222;
+}
+
+.table td {
+    background-color: #fff;
+    border-right-color: #ccc;
+    border-bottom-color: #ccc;
+    color: #222;
+}
+
+#view_mail_list ul li {
+    border-bottom-color : #ccc ;
+}
+
+#view_mail_list ul li em {
+    color : #888 ;
+}
+

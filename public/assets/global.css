@@ -1,0 +1,30 @@
+/* common styles -- ADDED by RAY */
+.align-center {
+text-align: center !important;
+}
+.align-left {
+text-align: left !important;
+}
+.align-right {
+text-align: right !important;
+}
+.border-left-none {
+border-left: none !important;
+}
+.border-right-none {
+border-right: none !important;
+}
+.display-block {
+display: block !important;
+}
+.display-inlineblock {
+display: inline-block !important;
+}
+
+div.img {
+    height: 150px;
+}
+
+div.note-editable {
+    margin-top: 5px;
+}

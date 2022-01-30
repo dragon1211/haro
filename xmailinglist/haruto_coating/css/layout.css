@@ -1,0 +1,236 @@
+@charset "UTF-8";
+
+* {
+    margin : 0 ;
+    padding : 0 ;
+    font-size : 100% ;
+}
+
+body {
+    font-family:"ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+    font-size : 75% ;
+    text-align : center ;
+    line-height : 1.4 ;
+    color : #333 ;
+}
+
+ul, li {
+    list-style : none ;
+}
+
+a img {
+    border : none ;
+}
+
+#contents_wrapper {
+    border-top : 1px solid #222 ;
+}
+
+#main p {
+    margin-bottom : 10px ;
+}
+
+.button_box {
+    padding: 0 0 5px;
+    text-align : center ;
+}
+
+.button_box input {
+    padding : 2px 3px ;
+}
+.inner {
+    margin-bottom: 30px;
+}
+
+
+/* header */
+#header {
+    border-bottom : 1px solid #333333 ;
+    position : relative ;
+    background : #ddd ;
+    padding : 15px 0;
+}
+
+#header h1 {
+    text-decoration : none ;
+    font-size : 120% ;
+    font-weight : bold ;
+}
+
+#header h1 a {
+    color : #000 ;
+    text-decoration : none ;
+}
+
+
+/* footer */
+#footer {
+    position : relative ;
+    padding : 10px ;
+}
+
+#footer .version {
+
+}
+
+
+/* pagelink_navi */
+.pagelink_navi {
+    font-size : 110% ;
+    background : #eee ;
+    padding : 10px 0 ;
+}
+
+.pagelink_navi li {
+    display : inline ;
+    padding : 0 6px ;
+}
+
+.pagelink_navi li a {
+    padding : 0 3px ;
+}
+
+/* contents */
+#contents {
+    border-top : 1px solid #333333 ;
+    border-bottom : 1px solid #333333 ;
+    padding : 10px ;
+}
+
+
+/* table */
+#main table {
+    width : 80% ;
+    border-collapse : collapse ;
+    border-top : 1px solid #b3b3b3 ;
+    border-left : 1px solid #b3b3b3 ;
+    margin : 0 auto 10px ;
+}
+
+#main table th {
+    padding : 5px ;
+    border-right : 1px solid #b3b3b3 ;
+    border-bottom : 1px solid #b3b3b3 ;
+    background-color : #e6e6e6 ;
+    text-align : center ;
+    font-weight : bold ;
+}
+
+#main table td {
+    padding : 5px ;
+    border-right : 1px solid #b3b3b3 ;
+    border-bottom : 1px solid #b3b3b3 ;
+}
+
+#main table input {
+    padding : 5px 8px ;
+}
+
+#main .menu_table input {
+    width : 80% ;
+}
+
+
+
+
+/* layout */
+#search_section {
+    padding : 8px ;
+    margin-bottom : 8px ;
+    border : 1px solid #b3b3b3 ;
+}
+
+#search_section strong, #search_section input {
+    margin-right : 8px ;
+    padding : 2px 3px ;
+}
+
+#main .pagelink {
+    margin-bottom : 10px ;
+}
+
+#main .pagelink li {
+    display : inline ;
+    padding : 0 3px ;
+}
+
+#main .pagelink li a {
+    margin : 5px ;
+}
+
+
+.archive_section {
+    margin-bottom : 20px ;
+    padding-top : 10px ;
+    padding-left : 12px ;
+}
+
+.archive_section li {
+    margin-bottom : 3px ;
+    list-style-type : disc !important;
+}
+
+.archive_section ul {
+    margin-left : 10px ;
+}
+
+.archive_section ul ul {
+    margin-left : 25px ;
+}
+
+.archive_section ul ul li {
+    list-style-type : circle !important;
+}
+
+.archive_section ul ul ul li {
+    list-style-type : square !important;
+}
+
+.archive_section h5 {
+    font-size : 110% ;
+    margin-bottom : 8px ;
+}
+
+
+#form_section{
+    border-top : 1px solid #333 ;
+    padding : 6px ;
+}
+
+.red_txt li {
+    list-style : disc ;
+    color : #f33 ;
+}
+
+.login_section {
+    margin-top : 20px ;
+    margin-bottom : 20px ;
+}
+
+.login_table {
+    text-align : center ;
+    margin-left : auto ;
+    margin-right : auto ;
+}
+
+.login_table td{
+    text-align : left ;
+}
+
+.login_table input {
+    width : 80% ;
+}
+
+.login_button,
+.pwdchange_button {
+    text-align : center ;
+}
+
+.login_button input,
+.pwdchange_button input{
+    width : 240px ;
+}
+
+.center_txt {
+    text-align : center ;
+}
